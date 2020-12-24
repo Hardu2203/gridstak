@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "gridstack/dist/gridstack.min.css",
+              "gridstack/dist/h5/gridstack-dd-native"
             ],
             "scripts": []
           },
@@ -120,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "gridstak"
+  "defaultProject": "gridstak",
+  "cli": {
+    "analytics": "14a01a80-5529-4cdc-8357-9c20856b5bad"
+  }
 }
